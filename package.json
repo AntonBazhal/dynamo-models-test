@@ -1,0 +1,26 @@
+{
+  "name": "dynamo-models-test",
+  "version": "0.0.1",
+  "description": "Simple project to compare the most popular DynamoDB data mappers for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonBazhal/dynamo-models-test.git"
+  },
+  "scripts": {
+    "document-client": "node ./src/document-client.js",
+    "dynamoose": "node ./src/dynamoose.js",
+    "vogels": "node ./src/vogels.js"
+  },
+  "author": {
+    "name": "Anton Bazhal",
+    "email": "am.bazhal@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.6.11",
+    "bluebird": "^3.4.6",
+    "dynamoose": "^0.6.0",
+    "joi": "^9.2.0",
+    "vogels": "^2.2.0"
+  }
+}
